@@ -1,5 +1,7 @@
 (ns clj-esper.core
   (:import [java.util Properties]
+           com.espertech.esper.core.EPServiceProviderImpl
+           com.espertech.esper.client.com.espertech.esper.core.EPServiceProviderImpl
            [com.espertech.esper.client Configuration UpdateListener EPStatement EPServiceProviderManager])
   (:use [clojure.walk :only (stringify-keys)]))
 
